@@ -9,8 +9,8 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <h1>Welcome!</h1>
-    <h2>My name is Viet and this is my blog</h2>
-    <p>Hi <Link to="/contact">Click Here!</Link></p>
+    <h2>My name is Viet and this is my blog created during my class</h2>
+    <p>You can learn about me by <Link to="/about">Click Here!</Link></p>
   </Layout>
 )
 
