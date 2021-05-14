@@ -8,7 +8,7 @@ const Contact = () => {
         <Layout>
             <SEO title="Contact" />
             <h1>Contact</h1>
-            <p>Contact page</p>
+            <p>You can contact me through my email</p>
             <Link to="/">Go Home</Link>
         </Layout>
     )

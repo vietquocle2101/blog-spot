@@ -2,8 +2,8 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    title: `Blog Spot`,
-    description: `My Blog`,
+    title: `My Blog`,
+    description: `This is where I share my personnal hobbies with you`,
     author: `@Viet`,
   },
   plugins: [
@@ -11,6 +11,7 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: "f2tnt53u3ceh",
+        accessToken: "XPEgwVuehCgDtk8RzsGkecn2t1vTxPsxprAgAzVAsOI"
       }
     },
     `gatsby-plugin-react-helmet`,
